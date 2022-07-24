@@ -15,7 +15,7 @@
     height: 3rem;
     width: 7rem;
     padding: 0px;
-    margin: 1px 2.3px 1px 0px;
+    margin: 1px 18px 1px 0px;
     align-items: flex-end;
     margin-left: auto;
 }
@@ -24,14 +24,14 @@
   display: flex;
   align-items: flex-end;
   font-size: 13px;
-  margin: 12px 0px 5px 4.3px; 
+  margin: 12px -2.7px 5px -1px; 
   padding: 0.5rem;
   display: inline-block;
 }
 .subheader-link{
   display: flex;
   font-size: 13px;
-  margin: 12px 0px 5px -1px;
+  margin: 12px -4px 5px 0px;
   padding: 0.5rem;
   display: inline-block;
 }
@@ -41,36 +41,52 @@
 }
 
 #gb#gb a.gb_A {
-  color: #000;
-  cursor: pointer;
+  color: gray;
   text-decoration: none;
 }
 .gb_z .gb_A, .gb_z .gb_A:hover, .gb_z .gb_A:focus {
   opacity: 1;
+  
 }
 .gb_z .gb_A, .gb_B .gb_z .gb_A {
   background-position: -64px -29px;
+  
 }
 .gb_oa a, .gb_Fc a {
-  color: inherit;
+  color: grey;
 }
 .gb_A {
   cursor: pointer;
   font-size: 2.4rem;
-  margin: 7px 20px 1px -8px;
-  padding: 8px 3px 3px 2px;
+  margin: 8px 27px 1px -8px;
+  padding: 0px 2.8px 3px 2px; 
 }
 
 .sign {
+    display: flex;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 25.5px;
+    margin: 11.2px 17.3px 14px 15px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+}
+.logo {
+  padding-left: 340px;
+  width: 1rem;
+  text-align: center;
+
+}
+
+.main-component{
+  border: 2px solid green;
+  height: 32rem;
+  height: 27rem;
+  margin: 0px 5px 0px 5px;
   display: flex;
-  background-color: #1a73e8;
-  color: white;
-  border-radius: 4px;
-  padding: 12px 38px;
-  margin: 13px 18px 14px 8px;
-  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.25px;
-  line-height: 22px;
+  padding: 0px;
 }
