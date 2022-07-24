@@ -1,0 +1,76 @@
+.header-component{
+  display: flex;
+  float: right;
+  border:1px solid black;
+  height: 4rem;
+  width: 100%;
+  
+}
+.link-component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: arial,sans-serif;
+    border: 1px solid rgb(233, 13, 13);
+    height: 3rem;
+    width: 7rem;
+    padding: 0px;
+    margin: 1px 0px 1px 0px;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.header-link{
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  margin: 12px 0px 5px 3.9px; 
+  padding: 0.5rem;
+  display: inline-block;
+}
+.subheader-link{
+  display: flex;
+  font-size: 14px;
+  margin: 12px 0px 5px 0px;
+  padding: 0.5rem;
+  display: inline-block;
+}
+.menu-icon{
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+#gb#gb a.gb_A {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.gb_z .gb_A, .gb_z .gb_A:hover, .gb_z .gb_A:focus {
+  opacity: 1;
+}
+.gb_z .gb_A, .gb_B .gb_z .gb_A {
+  background-position: -64px -29px;
+}
+.gb_oa a, .gb_Fc a {
+  color: inherit;
+}
+.gb_A {
+  cursor: pointer;
+  font-size: 2.4rem;
+  margin: 7px 20px 1px -8px;
+  padding: 8px 3px 3px 2px;
+}
+
+.sign {
+  display: flex;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 4px;
+  padding: 12px 38px;
+  margin: 13px 18px 14px 8px;
+  font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 22px;
+}
