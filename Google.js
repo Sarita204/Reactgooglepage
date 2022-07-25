@@ -4,6 +4,7 @@ const HeaderLink =({title})=>  <div className="header-link">{title}</div>
 class Google extends Component {
     render() {
         return (
+            
             <div className="header-component">
 
                 <div className="link-component">
