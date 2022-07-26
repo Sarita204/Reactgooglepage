@@ -9,13 +9,13 @@ import Footer from './Footer'
 function App() {
   return (
     <div className="App">
-      <Google />
+      <Google title />
       <Main />
       <Searchbar placeholder="Search" />
       <Input1 placeholder="Google Search" />
       <Language />
       <Footer />
-    
+
     </div>
   );
 }

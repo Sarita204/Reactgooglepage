@@ -3,13 +3,11 @@ import React from 'react'
 function Main() {
   return (
     <div className="logo">
-    <img 
-     src="logo.jpg"
-     alt="Google" width={"428px"} height={"142rem"}
-          />
-     </div>
-
-     
+      <img
+        src="logo.jpg"
+        alt="Google" width={"270px"} height={"97rem"}
+      />
+    </div>
   );
 }
 

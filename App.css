@@ -1,149 +1,148 @@
-
-.header-component{
+ /* Header area */
+.header-component {
   display: flex;
   float: right;
   height: 3rem;
   width: 100%;
-  margin: -23px 2px 0px 2px;
-  
-}
-.link-component{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: arial,sans-serif;
-    /* border: 1px solid rgb(233, 13, 13); */
-    height: 3rem;
-    width: 7rem;
-    padding: 0px;
-    margin: 1px 18px 1px 0px;
-    align-items: flex-end;
-    margin-left: auto;
+  margin: -30px 2px 0px 2px;
 }
 
-.header-link{
+.link-component {
+  display: flex;
+  flex: 0.1;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: arial, sans-serif;
+  height: 3rem;
+  padding: 5px 5px;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.header-link {
+  color:rgba(0,0,0,.87);
   display: flex;
   align-items: flex-end;
   font-size: 13px;
-  margin: 12px -2.7px 5px -1px; 
-  padding: 0.5rem;
+  margin: 12px -12px 5px 1px;
+  padding: 0.7rem;
   display: inline-block;
-}
-.subheader-link{
-  display: flex;
-  font-size: 13px;
-  margin: 12px -4px 5px 0px;
-  padding: 0.5rem;
-  display: inline-block;
-}
-.menu-icon{
-  margin-left: 5px;
-  font-size: 10px;
 }
 
-#gb#gb a.gb_A {
-  color: gray;
-  text-decoration: none;
-}
-.gb_z .gb_A, .gb_z .gb_A:hover, .gb_z .gb_A:focus {
-  opacity: 1;
-  
-}
-.gb_z .gb_A, .gb_B .gb_z .gb_A {
-  background-position: -64px -29px;
-  
-}
-.gb_oa a, .gb_Fc a {
-  color: grey;
-}
-.gb_A {
-  cursor: pointer;
-  font-size: 2.4rem;
-  margin: 8px 27px 1px -8px;
-  padding: 0px 2.8px 3px 2px; 
+.menu-icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  border: 0px;
+  fill: #5f6368;
+  margin:16.5px 5px 5px 19.8px;
 }
 
 .sign {
-    display: flex;
-    background-color: #1a73e8;
-    color: white;
-    border-radius: 4px;
-    padding: 6px 25.5px;
-    margin: 11.2px 17.3px 14px 15px;
-    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.25px;
-    line-height: 24px;
+  display: flex;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 25.5px;
+  margin: 10.3px 16.3px 14px 15px;
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 24px;
 }
+
+/* main area */
+
 .logo {
   width: 1rem;
   text-align: center;
-  margin-left: 66px;
-  padding: 0px 0px 0px 365px;
-  margin-top: 24px;
-
+  margin-left: 137px;
+  padding: 25px 0px 0px 365px;
+  margin-top: 31.5px;
+}
+.searchBar-container {
+  flex-direction: column;
+  border: 0.1px solid #dfe1e5;
+  background-color: #fff;
+  border-radius: 25px;
+  justify-content: center;
+  width: 34rem;
+  height: 2.7rem;
+  margin: 20.2px 0px 5px 347px;
+  padding: 0px 40px 2px 0px;
 }
 
-
-
-/* .Search{
-  align-items: center;
-  width: 100px;
+.inline-box {
+  flex-direction: column;
+  justify-content: center;
+  width: 31rem;
+  height: 2rem;
+  margin: 0px 5px 0px 41px;
 }
-.searchInput{
- align-items: center;
- margin: -21rem 0rem 0rem 35rem;
- display: flex;
- width: 500px;
- height: 34px;
 
-} */
+.searchicon {
+  text-align: left;
+  margin: 9px 0px 4px 7.8px;
+}
 
+.voiceicon {
+  text-align: right;
+  margin: -31px -23px 2px 0px;
+}
 
-
-.Box-1{
+.Box-1 {
   display: flex;
   flex-direction: ROW;
   flex: 0.5;
   justify-content: center;
-  padding:9px 0px 0px 0px; 
-  
+  padding: 9px 0px 0px 0px;
+
 }
-input{
-  margin: 15px;
-  padding: 3px;
+
+input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 14.5px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
 }
+
 .Language-1 {
   color: #3c4043;
   display: inline-block;
   line-height: 28px;
-  width: 657px;
+  width: 631px;
   text-align: center;
-  margin: 3px 0px 130px 320px;
-  font-family: arial,sans-serif;
-  font-size: 14px;
-  padding: 20px 3px;
-  }
-
-  a {
-    color: #1a0dab;
-    text-decoration: none;
-    width:auto;
-    font-size: 13px;
-    font-family: arial,sans-serif;
-    margin: 6px;
-
+  margin: 0px 0px 128px 323px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding: 9px 3px;
 }
-.google {
-  padding-left: 1px;
+
+a {
+  color: #1a0dab;
+  text-decoration: none;
+  width: auto;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  margin: 0px 5.1px 0px 4.6px;
 }
 
 .F-container {
   display: flex;
   flex-direction: column;
-  height: 5.5rem;
+  height: 5.6rem;
   background-color: #f2f2f2;
+  margin: 41px 0px 0px 0px;
 }
 
 .Block-A {
@@ -151,79 +150,65 @@ input{
   border: 0.01px solid rgb(207, 204, 204);
   height: 3rem;
 }
+
 .A {
   margin: 10.5px 0px 2px 29.3px;
   color: grey;
   font-family: Arial, sans-serif;
   font-size: 15px;
-  
+
 }
+
 .Block-B {
   display: flex;
   text-align: center;
   height: 3rem;
   flex-direction: row;
-  color: grey;
+  color: rgb(122, 120, 120);
+  font-size: 14px;
 }
 
-.bk-1{
+.bk-1 {
   flex: 0.1;
   text-align: left;
-  margin: 4px 5px 0px 15px;
+  margin: 12.8px 5px 0px 35px;
 }
 
-.bk-2{
+.bk-2 {
   flex: 0.1;
   text-align: left;
-  margin:  4px 5px 0px 15px;
+  margin: 12.8px  5px 0px 24px;
 
 }
 
-.bk-3{
+.bk-3 {
   flex: 1 1;
   text-align: left;
-  margin: 4px 5px 0px 15px;
+  margin: 12.8px 5px 0px 27px;
 }
 
-.bk-4{
+.bk-4 {
   flex: 9;
   text-align: left;
-  margin: 4px 0px 2px 0px;
+  margin: 12.8px 0px 2px 0px;
 }
-.bk-5{
+
+.bk-5 {
   flex: 1;
   text-align: center;
-  margin: 4px 0px 2px 0px;
+  margin: 12.8px 0px 2px 0px;
 }
-.bk-6{
+
+.bk-6 {
   flex: 1;
   text-align: center;
-  margin: 4px 0px 2px 0px;
+  margin: 12.8px 0px 2px 0px;
 }
-.bk-7{
-  flex: 1 1;
+
+.bk-7 {
+  flex: 1;
   text-align: center;
-  margin: 4px 0px 2px 0px;
+  margin: 12.8px 0px 2px 0px;
 }
 
 
-.searchBar-container{
-  flex-direction: column;
-  border: 0.1px solid black;
-  background-color: whitesmoke;
-
-  border-radius: 25px;
-  justify-content: center;
-  width: 34rem;
-  height: 2.5rem;
-  margin: 6px 0px 5px 345px;
-  padding: 0px 40px 2px 0px;
-}
-
-.inline-box{
-  flex-direction: column;
-    justify-content: center;
-    width: 31rem;
-    height: 3rem;
-    margin: 0px 5px 0px 41px;
-}
